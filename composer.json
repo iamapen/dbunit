@@ -30,6 +30,9 @@
         "ext-pdo": "*",
         "ext-simplexml": "*"
     },
+    "replace": {
+        "phpunit/dbunit": "5.*"
+    },
     "autoload": {
         "classmap": [
             "src/"
