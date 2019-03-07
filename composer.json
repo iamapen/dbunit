@@ -1,5 +1,5 @@
 {
-    "name": "phpunit/dbunit",
+    "name": "iamapen/dbunit",
     "description": "PHPUnit extension for database interaction testing",
     "type": "library",
     "keywords": [
@@ -7,9 +7,13 @@
         "testing",
         "xunit"
     ],
-    "homepage": "https://github.com/sebastianbergmann/dbunit/",
+    "homepage": "https://github.com/iamapen/dbunit/",
     "license": "BSD-3-Clause",
     "authors": [
+        {
+            "name": "iamapen",
+            "email": "iamapen@studiopoppy.com"
+        },
         {
             "name": "Sebastian Bergmann",
             "email": "sebastian@phpunit.de",
@@ -17,11 +21,11 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/sebastianbergmann/dbunit/issues"
+        "issues": "https://github.com/iamapen/dbunit/issues"
     },
     "require": {
-        "php": "^7.1",
-        "phpunit/phpunit": "^7.0",
+        "php": "^7.2",
+        "phpunit/phpunit": "^8.0",
         "symfony/yaml": "^3.0 || ^4.0",
         "ext-pdo": "*",
         "ext-simplexml": "*"
@@ -33,7 +37,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "4.0-dev"
+            "dev-master": "5.0-dev"
         }
     }
 }

@@ -6,7 +6,7 @@
          beStrictAboutOutputDuringTests="true"
          beStrictAboutTodoAnnotatedTests="true"
          verbose="true">
-    <testsuite>
+    <testsuite name="all">
         <directory suffix="Test.php">tests/Constraint</directory>
         <directory suffix="Test.php">tests/DataSet</directory>
         <directory suffix="Test.php">tests/Operation</directory>
