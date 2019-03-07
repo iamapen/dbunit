@@ -30,7 +30,7 @@
         "ext-pdo": "*",
         "ext-simplexml": "*"
     },
-    "replace": {
+    "conflict": {
         "phpunit/dbunit": "5.*"
     },
     "autoload": {
