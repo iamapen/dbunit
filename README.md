@@ -1,4 +1,4 @@
-[This extension is no longer maintained](https://github.com/sebastianbergmann/dbunit/issues/217)
+[This is temporary forked](https://github.com/sebastianbergmann/dbunit/issues/217)
 
 # DbUnit (forked)
 
